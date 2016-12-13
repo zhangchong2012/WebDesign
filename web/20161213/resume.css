@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-12-13 20:50:17
+ * @version $Id$
+ */
+body{
+	margin: 0px auto;
+	padding: 0px;
+	font-size: 14px;
+}
+
+#nav{
+	height: 60px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+#nav>h1{
+	font-size: 2em;
+	font-weight: bold;
+	padding: 0px 10px;
+	margin: 0px;
+	float: left;
+	line-height: 60px;
+}
+
+#nav>a{
+	font-size: 1.2em;
+	float: right;
+	display: block;
+	text-decoration: none;
+	color: #666;
+	padding: 0px 20px;
+	margin: 10px;
+	border-top: 4px solid #fff;
+	line-height: 40px;
+}
+
+#nav>a:hover{
+	border-bottom: 4px #639 solid;
+}
+
+.container{
+	padding: 20px;
+	clear: both;
+}
+
+.container>h2{
+	font-size: 1.6em;
+	font-weight: bold;
+	text-align: left;
+	padding: 10px 0px;
+}
+
+.bg-primary{
+	background-color: #639;
+	color: #fff;
+}
+
+.bg-default{
+	background-color: #fff;
+	color: #000;
+}
+
+.bg-info{
+	background-color: #eee;
+	color: #000;
+}
