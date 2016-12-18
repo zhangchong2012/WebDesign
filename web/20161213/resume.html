@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>my resume</title>
 	<link rel="stylesheet"  href="./resume.css" type="text/css">
+	<script type="text/javascript" src="resume.js"></script>
 </head>
 <body>
 	<div id="nav">
@@ -17,17 +18,24 @@
 	</div>
 
 	<div id="info1" class="container bg-primary">
-		<h2>
+		<img class="header" src="https://www.baidu.com/img/bd_logo1.png" alt="loading"/>
+		<h2 id="about">
 			About me
 		</h2>
+		<p class="text">hello everyone, this is my homepage~!</p>
 	</div>
 
 	<div id="info2" class="container bg-info">
 		<h2>
-			教育经历
+			<form action="" method="post" onsubmit="return attachSubmit(this)">
+				name: <input type="text" name="name" ><br>
+				pwd: <input type="password"><br>
+				<input type="submit" name="submit" value="submit">
+			</form>
 		</h2>
 		<h2>
-			工作经历
+			<input id="input_button" type="button" value="click me">
+			<input id="input_button2" type="button" value="second">
 		</h2>
 	</div>
 
@@ -54,5 +62,8 @@
 		</h2>
 	</div>
 
+	<script type="text/javascript">
+		window.onload = initJs();
+	</script>
 </body>
 </html>

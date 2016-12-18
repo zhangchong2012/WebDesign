@@ -44,7 +44,7 @@ body{
 
 .container{
 	padding: 20px;
-	clear: both;
+
 }
 
 .container>h2{
@@ -67,4 +67,10 @@ body{
 .bg-info{
 	background-color: #eee;
 	color: #000;
+}
+
+.container>.header{
+	margin: 10px auto;
+	display: block;
+	text-align: center;
 }
