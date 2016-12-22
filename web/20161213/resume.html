@@ -4,7 +4,9 @@
 	<meta charset="UTF-8">
 	<title>my resume</title>
 	<link rel="stylesheet"  href="./resume.css" type="text/css">
-	<script type="text/javascript" src="resume.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/resume.js"></script>
+	<script type="text/javascript" src="js/life.js"></script>
 </head>
 <body>
 	<div id="nav">
@@ -41,7 +43,11 @@
 
 	<div id="info3" class="container bg-default">
 		<h2>
-			个人荣誉
+			<p id="showmsg">点击我显示</p>
+			<div id="pannel">
+				<p>一寸光阴一寸金，因此，我们为您提供快捷易懂的学习内容。</p>
+				<p>在这里，您可以通过一种易懂的便利的模式获得您需要的任何知识。</p>
+			</div>
 		</h2>
 	</div>
 	<div id="info4" class="container bg-info">
@@ -61,9 +67,5 @@
 			与我联系
 		</h2>
 	</div>
-
-	<script type="text/javascript">
-		window.onload = initJs();
-	</script>
 </body>
 </html>

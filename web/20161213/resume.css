@@ -74,3 +74,13 @@ body{
 	display: block;
 	text-align: center;
 }
+#info3>h2{
+	font-size: 2em;
+	background-color: #e5eecc;
+	border: 1px solid  #c3c3c3;
+	width: 400px;
+}
+
+#info3 #pannel{
+	display: none;
+}
